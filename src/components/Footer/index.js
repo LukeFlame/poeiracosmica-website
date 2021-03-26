@@ -51,10 +51,10 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <div id="icons">
-        <a href="/">
+        <a href="https://discord.gg/MKTrrE2">
           <img src="/icons/DiscordIconFooter.svg" alt="Discord Icon" />
         </a>
-        <a href="/">
+        <a href="https://github.com/LukeFlame/poeiracosmica-website">
           <img src="/icons/GithubIconFooter.svg" alt="GitHub Icon" />
         </a>
       </div>
