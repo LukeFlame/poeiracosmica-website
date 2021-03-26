@@ -27,6 +27,7 @@ function Rankings({
   const [optionSelected, setOptionSelected] = React.useState('XP');
   const [inProp, setInProp] = React.useState(true);
 
+  // Transition settings
   const defaultStyle = {
     transition: `opacity 230ms ease-in-out`,
     opacity: 0,

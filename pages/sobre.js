@@ -88,6 +88,7 @@ function About({ dataStaff, dataSearch }) {
     }
   }
 
+  // Transition settings
   const defaultStyle = {
     transition: `opacity 250ms ease-in-out`,
     opacity: 0,

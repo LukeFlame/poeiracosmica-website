@@ -31,6 +31,7 @@ export default async (req, res) => {
 
         if (!memberdata || !userData) return res.status(400).json({ success: false });
 
+        // Selects the user's medals
         serverData.medails.map((regM) => {
           if (userData.medails.find((med) => med === regM.name) === regM.name) medailsUser.push(regM);
         });

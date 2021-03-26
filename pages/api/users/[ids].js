@@ -35,10 +35,9 @@ export default async (req, res) => {
           const user = allData.find((reg) => reg.userID === id);
           const meds = [];
 
-          console.log(user)
-
           if (!user) return
 
+          // selects the user's medals
           serverData.medails.map((regM) => {
             if (user.medails.find((med) => med === regM.name) === regM.name) meds.push(regM);
           });
