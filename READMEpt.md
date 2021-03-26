@@ -1,4 +1,4 @@
-- <a href="https://github.com/LukeFlame/minequiz/blob/main/README.md">README in english</a><br>
+- <a href="https://github.com/LukeFlame/poeiracosmica-website">README in english</a><br>
 - README em português
 
 <div align=center>
@@ -7,12 +7,12 @@
    </a>
 
    <h1>
-      Poeira Cósmica (Cosmic Dust) Website
+      Site do Poeira Cósmica
 
    [![Website poeiracosmica.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://poeiracosmica.com/) 
    [![Discord](https://img.shields.io/discord/463385509717082113.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/MKTrrE2)
-   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-   [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/LukeFlame/poeiracosmica-website)
+   [![Licença MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+   [![Código aberto? Sim!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/LukeFlame/poeiracosmica-website)
    </h1>
 </div>
 
@@ -27,8 +27,8 @@
 <h2 align="center">Previews 🖥️📱</h2>
 
    <p align="center">
-      <img src="https://cdn.discordapp.com/attachments/787821695486263399/804913182207901746/gif1.gif" width="90%" alt="Mine Quiz Demo"/>
-      <img src="https://cdn.discordapp.com/attachments/787821695486263399/804913169545560094/gi2.gif" width="90%" alt="Mine Quiz Demo 2"/>
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/824835826940641301/Poeira_Cosmica__a_comunidade_de_discord_que_atravessa_galaxias.jpeg" width="90%" alt="Homepage printscreen"/>
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/824835823836463114/Rankings___Poeira_Cosmica_1.jpeg" width="90%" alt="Rankings page printscreen"/>
    </p>
 
 ---
@@ -83,7 +83,7 @@
 <h2 align="center">Licença 📝</h2>
 
 <p align="center">
-   Este repositório está sob licença MIT. Você pode ver o arquivo <a href="https://github.com/LukeFlame/minequiz/blob/main/LICENSE" >LICENSE</a> para mais detalhes.
+   Este repositório está sob licença MIT. Você pode ver o arquivo <a href="https://github.com/LukeFlame/poeiracosmica-website/blob/main/LICENSE" >LICENSE</a> para mais detalhes.
 </p><br>
 
 ---

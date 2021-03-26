@@ -1,5 +1,5 @@
 - README in english<br>
-- <a href="https://github.com/LukeFlame/minequiz/blob/main/README.md">README em português</a>
+- <a href="https://github.com/LukeFlame/poeiracosmica-website/blob/main/READMEpt.md">README em português</a>
 
 <div align=center>
    <a href="https://poeiracosmica.com">
@@ -27,8 +27,8 @@
 <h2 align="center">Previews 🖥️📱</h2>
 
    <p align="center">
-      <img src="https://cdn.discordapp.com/attachments/787821695486263399/804913182207901746/gif1.gif" width="90%" alt="Mine Quiz Demo"/>
-      <img src="https://cdn.discordapp.com/attachments/787821695486263399/804913169545560094/gi2.gif" width="90%" alt="Mine Quiz Demo 2"/>
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/824835826940641301/Poeira_Cosmica__a_comunidade_de_discord_que_atravessa_galaxias.jpeg" width="90%" alt="Homepage printscreen"/>
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/824835823836463114/Rankings___Poeira_Cosmica_1.jpeg" width="90%" alt="Rankings page printscreen"/>
    </p>
 
 ---
@@ -64,7 +64,7 @@
    - Clone this repository:
    $ git clone <repository link>
 
-   - enter the directory:
+   - Enter the directory:
    $ cd poeiracosmica-website
 
    - Install the dependencies:
@@ -83,7 +83,7 @@
 <h2 align="center">License 📝</h2>
 
 <p align="center">
-   This repository is under MIT license. You can see the <a href="https://github.com/LukeFlame/minequiz/blob/main/LICENSE" >LICENSE</a> file for more details.
+   This repository is under MIT license. You can see the <a href="https://github.com/LukeFlame/poeiracosmica-website/blob/main/LICENSE" >LICENSE</a> file for more details.
 </p><br>
 
 ---
