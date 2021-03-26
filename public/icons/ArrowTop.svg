@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="width:0;height:0;position:absolute;overflow:hidden;">
+  <defs>
+<symbol viewBox="0 0 517 1024" aria-labelledby="alsi-ant-arrow-up-title" id="si-ant-arrow-up"><title id="alsi-ant-arrow-up-title">icon arrow-up</title><path d="M508 282q-9 9-22.5 9t-22.5-9L291 110v882q0 13-9.5 22.5T259 1024t-22.5-9.5T227 992V109L55 281q-9 10-22.5 10T10 281q-10-9-10-22.5T10 236L236 9q9-9 22.5-9T281 9l227 228q9 9 9 22.5t-9 22.5z"/></symbol>
+<symbol viewBox="0 0 1024 1024" aria-labelledby="gpsi-ant-to-top-title" id="si-ant-to-top"><title id="gpsi-ant-to-top-title">icon to-top</title><path d="M726 167L568 9q-9-9-22.5-9T523 9L365 167q-10 10-10 23t10 23q9 9 22.5 9t22.5-9l104-104v692q0 13 9 22.5t23 9.5q13 0 22.5-9.5T578 801V109l103 104q9 9 22.5 9t22.5-9q9-10 9-23t-9-23zm298 825q0 13-9.5 22.5T992 1024H32q-13 0-22.5-9.5T0 992t9.5-22.5T32 960h960q13 0 22.5 9.5t9.5 22.5z"/></symbol>
+<symbol viewBox="0 0 512 325.8000183105469" aria-labelledby="lesi-subway-up_2-title" id="si-subway-up_2"><title id="lesi-subway-up_2-title">icon up_2</title><path d="M256 0L0 256l69.8 69.8L256 139.6l186.2 186.2L512 256z"/></symbol>
+  </defs>
+</svg>

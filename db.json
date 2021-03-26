@@ -1,0 +1,14 @@
+{
+  "theme": {
+    "colors": {
+      "primary": "#265CBC",
+      "secundary": "#232E42",
+      "blackprimary": "#1E2637",
+      "blacksecundary": "#0D1526",
+      "whiteprimary": "#98A6B9",
+      "whitesecundary": "#D2D2D2",
+      "mainBg": "#242320",
+      "contrastText": "#FFFFFF"
+    }
+  }
+}
