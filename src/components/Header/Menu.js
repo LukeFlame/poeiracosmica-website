@@ -29,7 +29,7 @@ const MenuWrapper = styled.div`
       }
 
       nav#menu {
-        width: 270px;
+        width: auto;
         display: flex;
         align-items: center;
         z-index: 30;
@@ -40,7 +40,7 @@ const MenuWrapper = styled.div`
           display: grid;
           list-style: none;
           grid-template-rows: 1fr;
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
           gap: 50px;
           height: 40px;
           justify-items: right;
@@ -174,11 +174,19 @@ function Menu() {
         </button>
         <nav id="menu" className={isMenuOpen ? 'visible' : ''}>
           <ul>
-            <li className="link">
+          <li className="link">
               <Link href="https://discord.gg/MKTrrE2">
                 <a target="__blank">
                   <img src="/icons/Discord.svg" alt="Discord" title="Discord" />
                   Discord
+                </a>
+              </Link>
+            </li>
+            <li className="link">
+              <Link href="https://www.instagram.com/filosofiacosmica_">
+                <a target="__blank">
+                  <img src="/icons/Instagram.svg" alt="Instagram" title="Instagram" />
+                  Instagram
                 </a>
               </Link>
             </li>

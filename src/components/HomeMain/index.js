@@ -238,6 +238,7 @@ const HomeMainStyle = styled.div`
       }
 
       .homedata {
+        margin-bottom: 20%;
         .databox {
           width: 140px;
           margin: 0 10px;
@@ -261,7 +262,7 @@ const HomeMainStyle = styled.div`
       main {
         h1 {
           margin-top: 16%;
-          font-size: 18px;
+          font-size: 20px;
         }
       }
 
@@ -269,18 +270,17 @@ const HomeMainStyle = styled.div`
           display: flex;
           justify-content: space-between;
           max-width: 340px;
-          margin-bottom: 2%;
         .databox {
           width: auto;
           min-width: 65px;
           padding: 8px 5px 5px 8px;
 
           .title {
-            font-size: 8px;
+            font-size: 10px;
           }
 
           .data {
-            font-size: 14px;
+            font-size: 16px;
           }
         }
       }
@@ -297,7 +297,7 @@ const HomeMainStyle = styled.div`
         }
 
         h1 {
-          font-size: 16px;
+          font-size: 17px;
         }
       }
 
@@ -307,11 +307,11 @@ const HomeMainStyle = styled.div`
           margin: 0 16px;
 
           .title {
-            font-size: 8px;
+            font-size: 10px;
           }
 
           .data {
-            font-size: 14px;
+            font-size: 16px;
           }
         }
       }

@@ -50,6 +50,7 @@ const SearchInputWrapper = styled.div`
 
       input::placeholder {
         color: ${({ theme }) => theme.colors.whiteprimary};
+        text-overflow: ellipsis;
       }
 
       input:hover {
@@ -233,7 +234,7 @@ const SearchInputWrapper = styled.div`
   @media(max-width: 980px) {
     #input {
       form input::-webkit-input-placeholder {
-        width: 60%;
+        width: 100%;
       }
     }
   }

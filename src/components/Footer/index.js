@@ -15,7 +15,7 @@ const FooterWrapper = styled.footer`
   div#icons {
     width: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10%;
   }
 
@@ -53,6 +53,9 @@ export default function Footer() {
       <div id="icons">
         <a href="https://discord.gg/MKTrrE2">
           <img src="/icons/DiscordIconFooter.svg" alt="Discord Icon" />
+        </a>
+        <a href="https://www.instagram.com/filosofiacosmica_">
+          <img src="/icons/InstagramIconFooter.svg" alt="Instagram Icon" />
         </a>
         <a href="https://github.com/LukeFlame/poeiracosmica-website">
           <img src="/icons/GithubIconFooter.svg" alt="GitHub Icon" />
