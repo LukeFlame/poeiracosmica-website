@@ -23,7 +23,7 @@
     "react-router-dom": "^5.2.0",
     "react-scroll-up-button": "^1.6.4",
     "react-transition-group": "^4.4.1",
-    "styled-components": "^5.0.0"
+    "styled-components": "^5.2.2"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0",
