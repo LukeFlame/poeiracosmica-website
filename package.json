@@ -13,7 +13,7 @@
     "axios": "^0.21.1",
     "fuse.js": "^6.4.6",
     "mongoose": "^5.11.15",
-    "next": "^10.1.2",
+    "next": "latest",
     "next-seo": "^4.20.0",
     "nprogress": "^0.2.0",
     "parse-ms": "^2.1.0",
@@ -23,7 +23,7 @@
     "react-router-dom": "^5.2.0",
     "react-scroll-up-button": "^1.6.4",
     "react-transition-group": "^4.4.1",
-    "styled-components": "^5.2.2"
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0",
