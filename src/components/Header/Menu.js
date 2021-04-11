@@ -175,7 +175,7 @@ function Menu() {
         <nav id="menu" className={isMenuOpen ? 'visible' : ''}>
           <ul>
           <li className="link">
-              <Link href="https://discord.gg/MKTrrE2">
+              <Link href="https://discord.gg/6rBaYtfReT">
                 <a target="__blank">
                   <img src="/icons/Discord.svg" alt="Discord" title="Discord" />
                   Discord
