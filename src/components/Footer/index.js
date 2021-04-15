@@ -51,7 +51,7 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <div id="icons">
-        <a href="https://discord.gg/6rBaYtfReT">
+        <a href="https://discord.gg/MKTrrE2">
           <img src="/icons/DiscordIconFooter.svg" alt="Discord Icon" />
         </a>
         <a href="https://www.instagram.com/filosofiacosmica_">
