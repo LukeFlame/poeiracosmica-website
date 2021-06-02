@@ -165,9 +165,9 @@ export default function App({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Poeira Cósmica" />
         <meta property="og:url" content="https://poeiracosmica.com" />
-        <meta property="og:title" content="Poeira Cósmica | Servidor de discord" />
+        <meta property="og:title" content="Poeira Cósmica | Servidor de Discord" />
         <meta property="og:description" content="Poeira Cósmica é um servidor de Discord com uma comunidade diversa que preza pela ciência, filosofia... e humor." />
-        <meta property="og:image" content="https://cdn.discordapp.com/banners/463385509717082113/16f2efddc858458f073fbe51b48a75fb.png" />
+        <meta property="og:image" content="https://cdn.discordapp.com/banners/463385509717082113/16f2efddc858458f073fbe51b48a75fb.png?size=2048" />
       
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
