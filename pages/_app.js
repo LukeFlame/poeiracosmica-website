@@ -168,6 +168,8 @@ export default function App({ Component, pageProps }) {
         <meta property="og:title" content="Poeira Cósmica | Servidor de discord" />
         <meta property="og:description" content="Poeira Cósmica é um servidor de Discord com uma comunidade diversa que preza pela ciência, filosofia... e humor." />
         <meta property="og:image" content="https://cdn.discordapp.com/banners/463385509717082113/16f2efddc858458f073fbe51b48a75fb.png" />
+      
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
@@ -175,7 +177,7 @@ export default function App({ Component, pageProps }) {
           openGraph={{
             type: 'website',
             locale: 'pt_BR',
-            url: 'https://poeiracosmica.vercel.app',
+            url: 'https://poeiracosmica.com',
             site_name: 'Poeira Cósmica',
           }}
           twitter={{
