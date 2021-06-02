@@ -140,7 +140,7 @@ export default function App({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
         <title>Poeira Cósmica</title>
-        <meta name="title" content="Poeira Cósmica - A comunidade que atravessa galáxias" />
+        <meta name="title" content="Poeira Cósmica | Servidor de Discord" />
         <meta name="description" content="Poeira Cósmica é um servidor de Discord com uma comunidade diversa que preza pela ciência, filosofia... e humor." />
 
         <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png" />
@@ -163,10 +163,11 @@ export default function App({ Component, pageProps }) {
         <meta name="theme-color" content={db.theme.colors.primary} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://poeiracosmica.vercel.app/" />
-        <meta property="og:title" content="Poeira Cósmica - A comunidade que atravessa galáxias" />
+        <meta property="og:site_name" content="Poeira Cósmica" />
+        <meta property="og:url" content="https://poeiracosmica.com" />
+        <meta property="og:title" content="Poeira Cósmica | Servidor de discord" />
         <meta property="og:description" content="Poeira Cósmica é um servidor de Discord com uma comunidade diversa que preza pela ciência, filosofia... e humor." />
-        <meta property="og:image" content="https://cdn.discordapp.com/banners/463385509717082113/16f2efddc858458f073fbe51b48a75fb.png?size=2048" />
+        <meta property="og:image" content="https://cdn.discordapp.com/banners/463385509717082113/16f2efddc858458f073fbe51b48a75fb.png" />
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />

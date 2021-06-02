@@ -17,26 +17,26 @@ export default function Home({ dataSearch, atomsCount, membersCount }) {
       <Head
         title="Poeira Cósmica: a comunidade de discord que atravessa galáxias"
         description="O Poeira Cósmica é um servidor de Discord com uma comunidade diversa que preza pela ciência, filosofia... e humor."
-        canonical="https://poeiracosmica.vercel.app/"
+        canonical="https://poeiracosmica.com/"
         openGraph={{
-          url: 'https://poeiracosmica.vercel.app/',
+          url: 'https://poeiracosmica.com/',
           title: 'Poeira Cósmica: a comunidade de discord que atravessa galáxias',
           description: 'O Poeira Cósmica é um servidor de Discord com uma comunidade diversa que preza pela ciência, filosofia... e humor.',
           images: [
             {
-              url: 'https://poeiracosmica.vercel.app/images/PoeiraCosmica.jpg',
+              url: 'https://poeiracosmica.com/images/PoeiraCosmica.jpg',
               width: 1366,
               height: 768,
               alt: 'Poeira Cósmica Banner Art',
             },
             {
-              url: 'https://poeiracosmica.vercel.app/logo.gif',
+              url: 'https://poeiracosmica.com/logo.gif',
               width: 100,
               height: 100,
               alt: 'Poeira Cósmica Logo Art',
             },
             {
-              url: 'https://poeiracosmica.vercel.app/HomeLogo.png',
+              url: 'https://poeiracosmica.com/HomeLogo.png',
               width: 1920,
               height: 1080,
               alt: 'Poeira Cósmica Main Logo Art',
@@ -52,8 +52,8 @@ export default function Home({ dataSearch, atomsCount, membersCount }) {
         }]}
       />
       <LogoJsonLd
-        logo="https://poeiracosmica.vercel.app/HomeLogo.png"
-        url="https://poeiracosmica.vercel.app"
+        logo="https://poeiracosmica.com/HomeLogo.png"
+        url="https://poeiracosmica.com"
       />
       <div>
         <Header data={dataSearch} />
@@ -69,7 +69,7 @@ export default function Home({ dataSearch, atomsCount, membersCount }) {
 // Calls database data to the search bar and the infos of page
 // Totally static and updated every 15s
 export async function getStaticProps() {
-  const res = await fetch('https://poeiracosmica.vercel.app/api/data');
+  const res = await fetch('https://poeiracosmica.com/api/data');
   const { data } = await res.json();
 
   if (!data) {

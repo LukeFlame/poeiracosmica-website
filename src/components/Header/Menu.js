@@ -183,10 +183,10 @@ function Menu() {
               </Link>
             </li>
             <li className="link">
-              <Link href="https://www.instagram.com/filosofiacosmica_">
+              <Link href="https://www.tiktok.com/@poeiracomsica">
                 <a target="__blank">
-                  <img src="/icons/Instagram.svg" alt="Instagram" title="Instagram" />
-                  Instagram
+                  <img src="/icons/TikTok.svg" alt="TikTok" title="TikTok" />
+                  TikTok
                 </a>
               </Link>
             </li>

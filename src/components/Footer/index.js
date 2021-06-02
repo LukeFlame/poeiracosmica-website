@@ -7,16 +7,17 @@ import styled from 'styled-components';
 const FooterWrapper = styled.footer`
   background-color: #00000000;
   padding: 82px 0 52px 0;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   div#icons {
-    width: auto;
+    width: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10%;
+    gap: 8px;
   }
 
   img {
@@ -54,8 +55,8 @@ export default function Footer() {
         <a href="https://discord.gg/MKTrrE2">
           <img src="/icons/DiscordIconFooter.svg" alt="Discord Icon" />
         </a>
-        <a href="https://www.instagram.com/filosofiacosmica_">
-          <img src="/icons/InstagramIconFooter.svg" alt="Instagram Icon" />
+        <a href="https://www.tiktok.com/@poeiracomsica">
+          <img src="/icons/TikTok.svg" alt="TikTok Icon" />
         </a>
         <a href="https://github.com/LukeFlame/poeiracosmica-website">
           <img src="/icons/GithubIconFooter.svg" alt="GitHub Icon" />

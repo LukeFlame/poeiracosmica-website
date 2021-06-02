@@ -107,24 +107,24 @@ function About({ dataStaff, dataSearch }) {
         title="Sobre | Poeira Cósmica"
         description="Aqui é contada a história do servidor de Discord, Poeira Cósmica, assim como é explicado a economia, os recursos tecnológicos e a equipe staff."
         openGraph={{
-          url: 'https://poeiracosmica.vercel.app/sobre',
+          url: 'https://poeiracosmica.com/sobre',
           title: 'Sobre o Poeira Cósmica: Entenda como surgiu e os diferenciais',
           description: 'Aqui é contada a história do servidor de Discord, Poeira Cósmica, assim como é explicado a economia, os recursos tecnológicos e a equipe staff.',
           images: [
             {
-              url: 'https://poeiracosmica.vercel.app/images/PoeiraCosmica.jpg',
+              url: 'https://poeiracosmica.com/images/PoeiraCosmica.jpg',
               width: 1366,
               height: 768,
               alt: 'Poeira Cósmica Banner Art',
             },
             {
-              url: 'https://poeiracosmica.vercel.app/logo.gif',
+              url: 'https://poeiracosmica.com/logo.gif',
               width: 100,
               height: 100,
               alt: 'Poeira Cósmica Logo Art',
             },
             {
-              url: 'https://poeiracosmica.vercel.app/HomeLogo.png',
+              url: 'https://poeiracosmica.com/HomeLogo.png',
               width: 1920,
               height: 1080,
               alt: 'Poeira Cósmica Main Logo Art',
@@ -133,17 +133,17 @@ function About({ dataStaff, dataSearch }) {
         }}
       />
       <ArticleJsonLd
-        url="https://poeiracosmica.vercel.app/sobre"
+        url="https://poeiracosmica.com/sobre"
         title="Sobre o Poeira Cósmica"
         images={[
-          'https://poeiracosmica.vercel.app/images/PoeiraCosmica.jpg',
-          'https://poeiracosmica.vercel.app/images/Loja.jpg',
-          'https://poeiracosmica.vercel.app/images/Staff.jpg',
-          'https://poeiracosmica.vercel.app/images/Voyager.jpg',
+          'https://poeiracosmica.com/images/PoeiraCosmica.jpg',
+          'https://poeiracosmica.com/images/Loja.jpg',
+          'https://poeiracosmica.com/images/Staff.jpg',
+          'https://poeiracosmica.com/images/Voyager.jpg',
         ]}
         authorName={['LukeFl_', 'viirussz']}
         publisherName="Poeira Cósmica"
-        publisherLogo="https://poeiracosmica.vercel.app/HomeLogo.png"
+        publisherLogo="https://poeiracosmica.com/HomeLogo.png"
         description="Aqui é contada a história do servidor de Discord, Poeira Cósmica, assim como é explicado a economia, os recursos tecnológicos e a equipe staff."
       />
       <ScrollToTheTopButton />
@@ -323,10 +323,10 @@ function About({ dataStaff, dataSearch }) {
 // Calls database data to the staff info in staff option and search bar
 // Totally static and updated every 15s
 export async function getStaticProps() { // hugo luke calabi davi kipper luz
-  const res = await fetch('https://poeiracosmica.vercel.app/api/users/345624603256684555,258041633789050881,600781695255576586,401368001602912276,521842730171629569,584925271975788554');
+  const res = await fetch('https://poeiracosmica.com/api/users/345624603256684555,258041633789050881,600781695255576586,401368001602912276,521842730171629569,584925271975788554');
   const { data } = await res.json();
 
-  const resSearch = await fetch(`https://poeiracosmica.vercel.app/api/search`);
+  const resSearch = await fetch(`https://poeiracosmica.com/api/search`);
   const allDataSearch = await resSearch.json();
 
   if (!data) {

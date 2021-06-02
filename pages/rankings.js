@@ -46,24 +46,24 @@ function Rankings({
         title="Rankings | Poeira Cósmica"
         description="Aqui se encontram os membros destaque do Poeira Cósmica, classificados por maior nível e experiência, assim como átomos e votos."
         openGraph={{
-          url: 'https://poeiracosmica.vercel.app/rankings',
+          url: 'https://poeiracosmica.com/rankings',
           title: 'Rankings do Poeira Cósmica: As estrelas em destaque',
           description: 'Aqui se encontram os membros destaque do Poeira Cósmica, classificados por maior nível e experiência, assim como átomos e votos.',
           images: [
             {
-              url: 'https://poeiracosmica.vercel.app/images/PoeiraCosmica.jpg',
+              url: 'https://poeiracosmica.com/images/PoeiraCosmica.jpg',
               width: 1366,
               height: 768,
               alt: 'Poeira Cósmica Banner Art',
             },
             {
-              url: 'https://poeiracosmica.vercel.app/logo.gif',
+              url: 'https://poeiracosmica.com/logo.gif',
               width: 100,
               height: 100,
               alt: 'Poeira Cósmica Logo Art',
             },
             {
-              url: 'https://poeiracosmica.vercel.app/HomeLogo.png',
+              url: 'https://poeiracosmica.com/HomeLogo.png',
               width: 1920,
               height: 1080,
               alt: 'Poeira Cósmica Main Logo Art',
@@ -212,10 +212,10 @@ function Rankings({
 // Calls database data to the rankings and search bar
 // Totally static and updated every 15s
 export async function getStaticProps() {
-  const res = await fetch('https://poeiracosmica.vercel.app/api/data');
+  const res = await fetch('https://poeiracosmica.com/api/data');
   const { data } = await res.json();
 
-  const resSearch = await fetch(`https://poeiracosmica.vercel.app/api/search`);
+  const resSearch = await fetch(`https://poeiracosmica.com/api/search`);
   const allDataSearch = await resSearch.json();
 
   if (!data) {

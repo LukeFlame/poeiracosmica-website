@@ -303,7 +303,7 @@ function User({ memberData, dataSearch, medailsUser }) {
 }
 
 // export async function getStaticPaths() {
-//   const res = await fetch(`https://poeiracosmica.vercel.app/api/data`);
+//   const res = await fetch(`https://poeiracosmica.com/api/data`);
 //   const { data } = await res.json();
 
 //   const paths = data.dataSearch.map(user => ({
@@ -318,10 +318,10 @@ function User({ memberData, dataSearch, medailsUser }) {
 export async function getServerSideProps(context) {
   const { id } = context.params;
 
-  const res = await fetch(`https://poeiracosmica.vercel.app/api/user/${id}`);
+  const res = await fetch(`https://poeiracosmica.com/api/user/${id}`);
   const { data } = await res.json();
 
-  const resSearch = await fetch(`https://poeiracosmica.vercel.app/api/search`);
+  const resSearch = await fetch(`https://poeiracosmica.com/api/search`);
   const allDataSearch = await resSearch.json();
 
   if (!data) {
