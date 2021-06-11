@@ -287,6 +287,8 @@ function SearchInput({ data, page }) {
   // State that controls the results according to what was typed
   const [resultsSearch, setresultsSearch] = React.useState([]);
 
+  console.log(resultsSearch);
+
   // List of false data to simulate the lack of results
   const FakeList = [
     {
@@ -333,7 +335,7 @@ function SearchInput({ data, page }) {
             <a className="result">
               <img src={result.item.avatar} alt={result.item.nickname} />
               <div className="info">
-                <h1>{formatNick(result.item.nickname.length < 2 ? result.item.usertag.split('#')[0] || result.item.userID : result.item.nickname, 11)}</h1>
+                <h1>{formatNick((result.item.nickname !== null && result.item.nickname.length < 2) ? result.item.usertag.split('#')[0] || result.item.userID : result.item.nickname, 11, result.item.userID)}</h1>
                 <h2>
                   {result.item.usertag && (`#${result.item.usertag.split('#')[1]}`)}
                 </h2>

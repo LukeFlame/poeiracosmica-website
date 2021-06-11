@@ -313,7 +313,7 @@ function About({ dataStaff, dataSearch }) {
 
 // Calls database data to the staff info in staff option and search bar
 // Totally static and updated every 15s
-export async function getStaticProps() { // hugo luke calabi davi kipper luz
+export async function getStaticProps() { // hugo luke calabi davi kipper
   const res = await fetch('https://poeiracosmica.com/api/users/345624603256684555,258041633789050881,600781695255576586,811791678523703297,521842730171629569');
   const { data } = await res.json();
 
