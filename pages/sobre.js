@@ -297,15 +297,6 @@ function About({ dataStaff, dataSearch }) {
                           </div>
                         </a>
                       </Link>
-                      <Link href={`/user/${dataStaff[5].userID}`}>
-                        <a className="card">
-                          <img src={dataStaff[5].avatar} alt="" className="avatar" />
-                          <div className="texts">
-                            <h2 className="nick">{formatNick(dataStaff[5].nickname, 8)}</h2>
-                            <h3 className="info">Conselheiro desde 2021</h3>
-                          </div>
-                        </a>
-                      </Link>
                     </div>
                   </div>
                 )}
@@ -323,7 +314,7 @@ function About({ dataStaff, dataSearch }) {
 // Calls database data to the staff info in staff option and search bar
 // Totally static and updated every 15s
 export async function getStaticProps() { // hugo luke calabi davi kipper luz
-  const res = await fetch('https://poeiracosmica.com/api/users/345624603256684555,258041633789050881,600781695255576586,401368001602912276,521842730171629569,584925271975788554');
+  const res = await fetch('https://poeiracosmica.com/api/users/345624603256684555,258041633789050881,600781695255576586,811791678523703297,521842730171629569');
   const { data } = await res.json();
 
   const resSearch = await fetch(`https://poeiracosmica.com/api/search`);
