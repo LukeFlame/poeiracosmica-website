@@ -189,6 +189,7 @@ export default function App({ Component, pageProps }) {
         />
         <Component {...pageProps} />
       </ThemeProvider>
+      <script type="text/javascript" data-adel="atag" src="//acdcdn.com/script/atg.js" czid="ibjci04b"></script>
     </>
   );
 }
