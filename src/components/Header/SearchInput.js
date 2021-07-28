@@ -287,8 +287,6 @@ function SearchInput({ data, page }) {
   // State that controls the results according to what was typed
   const [resultsSearch, setresultsSearch] = React.useState([]);
 
-  console.log(resultsSearch);
-
   // List of false data to simulate the lack of results
   const FakeList = [
     {

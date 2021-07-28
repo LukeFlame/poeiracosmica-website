@@ -10,8 +10,6 @@ export default async (req, res) => {
   // Get the requisition method and parameter ids
   const { method } = req;
 
-  console.log(req);
-
   switch (method) {
     case 'GET':
       try {

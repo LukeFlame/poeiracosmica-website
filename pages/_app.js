@@ -3,7 +3,7 @@
 /* eslint-disable prefer-destructuring */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
@@ -127,6 +127,22 @@ Router.events.on('routeChangeComplete', () => NProgress.done());
 Router.events.on('routeChangeError', () => NProgress.done());
 
 export default function App({ Component, pageProps }) {
+
+  useEffect(() => {
+    var uid = '325104';
+    var wid = '625758';
+
+    var pop_tag = document.createElement('script'); 
+    pop_tag.src = '//cdn.popcash.net/show.js'; 
+    document.body.appendChild(pop_tag);
+
+    pop_tag.onerror = function () {
+      pop_tag = document.createElement('script');
+      pop_tag.src = '//cdn2.popcash.net/show.js'; 
+      document.body.appendChild(pop_tag)
+    };
+  }, [])
+
   return (
     <>
       <Head>
