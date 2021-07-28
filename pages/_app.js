@@ -143,6 +143,7 @@ export default function App({ Component, pageProps }) {
         <meta name="title" content="Poeira Cósmica | Servidor de Discord" />
         <meta name="description" content="Poeira Cósmica é um servidor de Discord com uma comunidade diversa que preza pela ciência, filosofia... e humor." />
 
+        <meta name="a.validate.01" content="d78a2b2e1424e54096f7cff7384fe0534346" />
         <script data-ad-client="ca-pub-5541508909226142" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
         <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png" />
